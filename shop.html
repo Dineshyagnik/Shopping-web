@@ -1,0 +1,422 @@
+<html lang="en">
+<head>
+    
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+     <!-- Nav bar -->
+     <nav class="navbar navbar-expand-lg bg-primary row">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">MyShop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="cart.html">Cart</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#login">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#signup">SignUp</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="contact.html" >Contact</a>
+                  </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success text-white" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+  </div>
+  <!-- login form   -->
+
+  <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel">Login form</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <form>
+             <div class="mb-3">
+               <label for="recipient-name" class="col-form-label">Enter Your Email:</label>
+               <input type="email" class="form-control" id="recipient-name">
+             </div>
+             <div class="mb-3">
+               <label for="recipient-name" class="col-form-label">Enter Your Password:</label>
+               <input type="password" class="form-control" id="recipient-name">
+             </div>
+           </form>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           <button type="button" class="btn btn-primary">Login</button>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- sign Up -->
+   <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SignUpform</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Enter Your Name:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Enter Your Email:</label>
+              <input type="email" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Enter Your Password:</label>
+              <input type="password" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Enter Your Mobile:</label>
+              <input type="number" class="form-control" id="recipient-name">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- slider    -->
+  
+   
+  
+<div class="container-fluid text-white bg-primary p-5 text-center mt-2">
+     <p class="h1">Product Section</p>
+</div>
+<div class="container-fluid">
+     
+
+
+<div class="row row-cols-sm-1 row-cols-lg-4 row-cols-md-2 mt-2">
+  <div class="col">
+    <div class="card">
+      <img src="image/pic1.jfif" height="180px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Shirt</h5>
+        <h5>Price: Rs.500</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+          <button class="btn btn-primary btn-sm">Add to cart</button>
+          <button class="btn btn-primary btn-sm">Add Wish List</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+     <div class="card">
+          <img src="image/pic2.jfif" height="180px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">T-Shirt</h5>
+            <h5>Price: Rs.200</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+              <button class="btn btn-primary btn-sm">Add to cart</button>
+              <button class="btn btn-primary btn-sm">Add Wish List</button>
+          </div>
+        </div>
+  </div>
+  <div class="col">
+     <div class="card">
+          <img src="image/pic3.jfif" height="180px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DeskTop computer</h5>
+            <h5>Price: Rs.900</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+              <button class="btn btn-primary btn-sm">Add to cart</button>
+              <button class="btn btn-primary btn-sm">Add Wish List</button>
+          </div>
+        </div>
+  </div>
+  <div class="col">
+     <div class="card">
+          <img src="image/pic4.jfif" height="180px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Laptop</h5>
+            <h5>Price: Rs.700</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+              <button class="btn btn-primary btn-sm">Add to cart</button>
+              <button class="btn btn-primary btn-sm">Add Wish List</button>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="row row-cols-sm-1 row-cols-lg-4 row-cols-md-2 mt-2">
+     <div class="col">
+       <div class="card">
+         <img src="image/pic1.jfif" height="180px" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Shirt</h5>
+           <h5>Price: Rs.500</h5>
+           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         </div>
+         <div class="card-footer">
+             <button class="btn btn-primary btn-sm">Add to cart</button>
+             <button class="btn btn-primary btn-sm">Add Wish List</button>
+         </div>
+       </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic6.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">T-Shirt</h5>
+               <h5>Price: Rs.200</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic5.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">DeskTop computer</h5>
+               <h5>Price: Rs.900</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic4.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Laptop</h5>
+               <h5>Price: Rs.700</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+   </div>
+   <div class="row row-cols-sm-1 row-cols-lg-4 row-cols-md-2 mt-2">
+     <div class="col">
+       <div class="card">
+         <img src="image/pic6.jfif" height="180px" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Shirt</h5>
+           <h5>Price: Rs.500</h5>
+           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         </div>
+         <div class="card-footer">
+             <button class="btn btn-primary btn-sm">Add to cart</button>
+             <button class="btn btn-primary btn-sm">Add Wish List</button>
+         </div>
+       </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic8.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">T-Shirt</h5>
+               <h5>Price: Rs.200</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic3.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">DeskTop computer</h5>
+               <h5>Price: Rs.900</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic4.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Laptop</h5>
+               <h5>Price: Rs.700</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+   </div>
+   <div class="row row-cols-sm-1 row-cols-lg-4 row-cols-md-2 mt-2">
+     <div class="col">
+       <div class="card">
+         <img src="image/pic6.jfif" height="180px" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Shirt</h5>
+           <h5>Price: Rs.500</h5>
+           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         </div>
+         <div class="card-footer">
+             <button class="btn btn-primary btn-sm">Add to cart</button>
+             <button class="btn btn-primary btn-sm">Add Wish List</button>
+         </div>
+       </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic8.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">T-Shirt</h5>
+               <h5>Price: Rs.200</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic9.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">DeskTop computer</h5>
+               <h5>Price: Rs.900</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic5.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Laptop</h5>
+               <h5>Price: Rs.700</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+   </div>
+   <div class="row row-cols-sm-1 row-cols-lg-4 row-cols-md-2 mt-2">
+     <div class="col">
+       <div class="card">
+         <img src="image/pic6.jfif" height="180px" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Shirt</h5>
+           <h5>Price: Rs.8500</h5>
+           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         </div>
+         <div class="card-footer">
+             <button class="btn btn-primary btn-sm">Add to cart</button>
+             <button class="btn btn-primary btn-sm">Add Wish List</button>
+         </div>
+       </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic7.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">T-Shirt</h5>
+               <h5>Price: Rs.900</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic8.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">DeskTop computer</h5>
+               <h5>Price: Rs.1000</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+     </div>
+     <div class="col">
+        <div class="card">
+             <img src="image/pic9.jfif" height="180px" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Laptop</h5>
+               <h5>Price: Rs.1700</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+             </div>
+             <div class="card-footer">
+                 <button class="btn btn-primary btn-sm">Add to cart</button>
+                 <button class="btn btn-primary btn-sm">Add Wish List</button>
+             </div>
+           </div>
+    
+</div>
+     </div>
+</div>
+<div class="footer p-5 text-center bg-dark text-white h3">
+     copyright@2022 ducat india
+</div>
+
+</body>
+</html>
