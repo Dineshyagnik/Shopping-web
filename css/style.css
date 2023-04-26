@@ -3,3 +3,6 @@
 .imgdata img{transition: All 5s;}
 .imgdata:hover img{transform: scale(1.8);}
 
+.txt_footer{
+    font-size: 19px;
+}
